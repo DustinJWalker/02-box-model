@@ -8,14 +8,16 @@
   overflow: auto;
   background: #64b5f6;
   color: white;
+  height: auto;
+
 
 }
 .nav_bar-left  {
 
-  text-align: left;
+
 }
 
 .nav_bar-right  {
 
-  text-align: right;
+
 }
