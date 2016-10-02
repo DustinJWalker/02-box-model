@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 
+
 }
 
 img {
@@ -52,17 +53,26 @@ img {
 
 .frame_work  {
   float: left;
-  margin-left: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.lang-name  {
+  text-align: center;
+  margin: 1rem;
+  float: right;
 }
 
 .repos_1  {
   text-align: center;
   display: block;
-  float: left;
+  overflow: auto;
+  border-bottom: solid 1px;
+
 }
 
 .repos_2  {
   text-align: center;
   display: block;
-  float: left;
-  }
+  overflow: auto;
+}
