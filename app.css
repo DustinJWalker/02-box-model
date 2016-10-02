@@ -36,32 +36,33 @@ img {
   text-align: center;
 }
 
+
 .profile  {
-  border-bottom: 1px solid;
+  border-bottom: 1px;
 }
 
-.repo_dot  {
+.lang_dot  {
   border-radius: 50%;
   background-color: yellow;
   max-width: 10%;
 }
 
-.list_of_repos  {
+
+
+
+.frame_work  {
   float: left;
-}
-
-.repo_dot  {
-  float: right;
-}
-
-.lang-name  {
-  float:right;
+  margin-left: 1rem;
 }
 
 .repos_1  {
-  margin: 0 1rem 0 1rem;
+  text-align: center;
+  display: block;
+  float: left;
 }
 
 .repos_2  {
-    margin: 0 1rem 0 1rem;
-}
+  text-align: center;
+  display: block;
+  float: left;
+  }
