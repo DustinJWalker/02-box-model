@@ -46,10 +46,14 @@ img {
   border-bottom: solid 1px;
 }
 
-.lang_dot  {
+.lang_dot {
+  display: inline-block;
   border-radius: 50%;
-  background-color: yellow;
-  max-width: 10%;
+  background-color: #f1e05a;
+  /*border: 1px solid black;*/
+  width: 5%;
+  /*padding-left: 1rem;*/
+  height: 5%;
 }
 
 .frame_work  {
@@ -57,12 +61,20 @@ img {
   margin: 1rem;
   text-align: center;
 }
+.lang-name__parent  {
+  display: block;
+  float: right;
+
+}
+
+
 
 .lang-name  {
   text-align: center;
   margin: 1rem;
-  float: right;
 }
+
+
 
 .repos_1  {
   text-align: center;
