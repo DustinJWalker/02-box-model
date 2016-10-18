@@ -49,11 +49,12 @@ img {
 .lang_dot {
   display: inline-block;
   border-radius: 50%;
-  background-color: #f1e05a;
-  /*border: 1px solid black;*/
-  width: 5%;
-  /*padding-left: 1rem;*/
-  height: 5%;
+  background-color: #ffff00;
+  border: 1px solid darkgrey;
+
+  width: 1rem;
+  padding-left: 1rem;
+  height: 1rem;
 }
 
 .frame_work  {
@@ -70,6 +71,7 @@ img {
 
 
 .lang-name  {
+
   text-align: center;
   margin: 1rem;
 }
