@@ -1,32 +1,36 @@
 * {
   box-sizing: border-box;
-
-
 }
 
-img {
-  float: left;
-  margin-left: 1rem;
-
+body {
+  margin: 0;
 }
+
 .navbar {
   background: #64b5f6;
   color: white;
   overflow: auto;
   display: block;
+  padding: 1rem;
 }
 
 .nav_bar_title  {
   text-align: center;
   float: left;
-  margin-left: 2rem;
+  margin: 0;
+  line-height: 2rem;
 }
+
+.nav__right {
+  margin: 0 -1rem;
+  float: right;
+}
+
 .nav_bar_text  {
   text-align: center;
-  display: block;
-  float: right;
-  margin-right: 2rem;
-
+  display: inline-block;
+  margin: 0 1rem;
+  line-height: 2rem;
 }
 
 
@@ -40,10 +44,17 @@ img {
 
 .profile-pic  {
   max-width: 20%;
+  float: left;
+  margin: 0;
 }
 
 .profile  {
-  border-bottom: solid 1px;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.name {
+  margin: 0;
 }
 
 .lang_dot {
@@ -59,35 +70,17 @@ img {
 
 .frame_work  {
   float: left;
-  margin: 1rem;
-  text-align: center;
+  margin: 0;
 }
-.lang-name__parent  {
-  display: block;
-  float: right;
-
-}
-
-
 
 .lang-name  {
-
-  text-align: center;
-  margin: 1rem;
+  float: right;
+  margin: 0;
 }
 
-
-
-.repos_1  {
-  text-align: center;
+.repos  {
   display: block;
   overflow: auto;
-  border-bottom: solid 1px;
-
-}
-
-.repos_2  {
-  text-align: center;
-  display: block;
-  overflow: auto;
+  border-top: solid 1px;
+  padding: 1rem;
 }
